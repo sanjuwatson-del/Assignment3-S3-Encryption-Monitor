@@ -21,6 +21,21 @@ Detect S3 buckets that do not have server-side encryption enabled using AWS Lamb
 5. Logged unencrypted buckets.
 6. Verified results through CloudWatch.
 
+7. ## Screenshot 1 - S3 Buckets Created
+
+![S3 Buckets](screenshots/S3buckets.jpeg)
+
+## Screenshot 2 - IAM Role
+
+![IAM Role](screenshots/LambdaAS3.jpeg)
+
+## Screenshot 3 - Lambda Function
+
+![Lambda](screenshots/Lambdafunction.jpeg)
+
+## Screenshot 4 - Lambda Code
+
+![Code](screenshots/cloudwatch.jpeg)
 ## Result
 
 Successfully detected all S3 buckets without server-side encryption enabled.
